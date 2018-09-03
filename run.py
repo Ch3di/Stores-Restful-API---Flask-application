@@ -7,4 +7,3 @@ def create_tables():
     db.create_all()
 
 db.init_app(app)
-app.run()
