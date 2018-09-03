@@ -1,5 +1,5 @@
 from db import db
-from store import StoreModel
+from models.store import StoreModel
 class ItemModel(db.Model):
     __tablename__ = 'items'
     id = db.Column(db.Integer, primary_key=True)

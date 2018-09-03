@@ -11,9 +11,6 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///data.db"
 api = Api(app)
 
-@app.before_first_request # execute the following function before the first request
-def create_tables():
-    db.create_all()
 
 jwt = JWT(app, authenticate, identify) # it creates an endpoint called /auth
 
