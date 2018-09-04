@@ -1,3 +1,4 @@
+import os
 from flask import Flask
 from flask_restful import Api
 from flask_jwt import JWT # JWT stands for JSON Web Token
@@ -8,7 +9,7 @@ from resources.store import StoreList, Store
 app = Flask(__name__)
 app.secret_key = 'MY_SECRET_KEY :p'   # a secret key must be specified
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///data.db"
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL", "sqlite:///data.db") # read the DATABASE_URL environment variable given by Heroku
 api = Api(app)
 
 
