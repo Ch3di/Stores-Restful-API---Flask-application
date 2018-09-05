@@ -14,22 +14,22 @@ It helps to manage stores objects which hold some items.
 
       Gets an array named 'items' which contains all the items objects
 
-* \[GET\]: _/item/<name>_
+* \[GET\]: _/item/\<name\>_
 
-      Returns a json which contains the <name> of the item and its 'price'
+      Returns a json which contains the \<name\> of the item and its 'price'
       NOTE: JWT key is required for this request
 
-* \[POST\]: _/item/<name>_
+* \[POST\]: _/item/\<name\>_
 
       Adds a new item
       The json payload must contain "price" : float and "store_id": integer
 
-* \[PUT\]: _/item/<name>_
+* \[PUT\]: _/item/\<name\>_
 
       Updates an existing item or creates new one if it doesn't exist
       'price': <float> is required in the json payload
 
-* \[DELETE\]: _/item/<name>_
+* \[DELETE\]: _/item/\<name\>_
 
       Deletes an existing item
 
@@ -37,15 +37,15 @@ It helps to manage stores objects which hold some items.
 
       Gets an array named 'stores' which contains all the stores
 
-* \[GET\]: _/store/<name>_
+* \[GET\]: _/store/\<name\>_
 
-      Returns a json which contains the <name> of the store and an array of the associeted items objects
+      Returns a json which contains the \<name\> of the store and an array of the associeted items objects
 
-* \[POST\]: _/store/<name>_
+* \[POST\]: _/store/\<name\>_
 
       Creates a new store
 
-* \[DELETE\]: _/store/<name>_
+* \[DELETE\]: _/store/\<name\>_
 
       Deletes an existing store
 
