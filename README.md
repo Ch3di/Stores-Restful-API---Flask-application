@@ -17,7 +17,7 @@ It helps to manage stores objects which hold some items.
 * \[GET\]: _/item/<name>_
 
       Returns a json which contains the <name> of the item and its 'price'
-      **NOTE:** JWT key is required for this request
+      NOTE: JWT key is required for this request
 
 * \[POST\]: _/item/<name>_
 
@@ -71,6 +71,7 @@ It helps to manage stores objects which hold some items.
 
 ## Deployment
 All Heruko configuration files are included
+
 You can simply deploy the application to Heruko by connecting to github.
 ## License
 The content of this repository is licensed under a [Creative Commons Attribution License](https://creativecommons.org/licenses/by/3.0/us/)
