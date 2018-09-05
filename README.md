@@ -51,24 +51,24 @@ It helps to manage stores objects which hold some items.
 
 ## Python dependencies
 * Flask
-      ```
+
       $ pip install Flask
-      ```
+
 * Flask-RESTful
 
-      `$ pip install Flask-RESTful`
+      $ pip install Flask-RESTful
 * Flask-SQLAlchemy
 
-      `$ pip install Flask-SQLAlchemy`
+      $ pip install Flask-SQLAlchemy
 * Flask-JWT
 
-      `$ pip install Flask-JWT`
+      $ pip install Flask-JWT
 * uwsgi
 
-      `$ pip install uwsgi`
+      $ pip install uwsgi
 * psycopg2
 
-      `$ pip install psycopg2`
+      $ pip install psycopg2
 
 ## Deployment
 All Heruko configuration files are included
