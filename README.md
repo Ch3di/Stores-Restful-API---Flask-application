@@ -4,7 +4,7 @@ It helps to manage stores objects which hold some items.
 ## Developed endpoints
 * \[GET\]: _/register_
 
-Registers a user
+      Registers a user
 
 * \[GET\]: _/auth_
 signs in an existing user to generate the JWT key
