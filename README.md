@@ -3,6 +3,7 @@ This is a simple RESTful API written using Flask python framework.
 It helps to manage stores objects which hold some items.
 ## Developed endpoints
 * \[GET\]: _/register_
+
 Registers a user
 
 * \[GET\]: _/auth_
