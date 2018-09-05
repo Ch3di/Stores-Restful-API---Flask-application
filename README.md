@@ -53,7 +53,7 @@ It helps to manage stores objects which hold some items.
 * Flask
       ```
       $ pip install Flask
-      `
+      ```
 * Flask-RESTful
 
       `$ pip install Flask-RESTful`
