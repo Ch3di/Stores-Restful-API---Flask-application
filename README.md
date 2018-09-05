@@ -16,7 +16,7 @@ It helps to manage stores objects which hold some items.
 
 * \[GET\]: _/item/\<name\>_
 
-      Returns a json which contains the \<name\> of the item and its 'price'
+      Returns a json which contains the <name> of the item and its 'price'
       NOTE: JWT key is required for this request
 
 * \[POST\]: _/item/\<name\>_
@@ -39,7 +39,7 @@ It helps to manage stores objects which hold some items.
 
 * \[GET\]: _/store/\<name\>_
 
-      Returns a json which contains the \<name\> of the store and an array of the associeted items objects
+      Returns a json which contains the <name> of the store and an array of the associeted items objects
 
 * \[POST\]: _/store/\<name\>_
 
@@ -51,8 +51,9 @@ It helps to manage stores objects which hold some items.
 
 ## Python dependencies
 * Flask
-
-      `$ pip install Flask`
+      ```
+      $ pip install Flask
+      `
 * Flask-RESTful
 
       `$ pip install Flask-RESTful`
